@@ -1,0 +1,33 @@
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 1.7;
+    color: $color-grey-dark;
+}
+
+.heading-primary{
+    color: $color-white;
+    font-size: 4rem;
+
+    &--main{
+        display: block;
+        line-height: .7;
+        font-size: 120%;
+        letter-spacing: 2px;
+        @include respond(tabport) {
+            line-height: 1;
+        }
+    }
+}
+
+.heading-secondary{
+    color: $color-primary;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+
+    &--sidekick{
+        color: $color-primary;
+        font-size: 1.8rem;
+    }
+}

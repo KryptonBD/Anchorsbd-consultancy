@@ -1,0 +1,13 @@
+{
+  "name": "anchorsbd",
+  "version": "1.0.0",
+  "description": "Anchorsbd consultancy bangladesh",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css -w"
+  },
+  "author": "foysol",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
