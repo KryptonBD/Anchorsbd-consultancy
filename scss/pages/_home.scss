@@ -164,7 +164,7 @@
 
         .uni-slide{
             flex: 0 0 23%;
-            animation: moveleft 20s ease-in-out infinite;
+            animation: moveleft 30s ease-in-out infinite;
             animation-delay: 2s;
             cursor: pointer;
             &:not(:last-child){
